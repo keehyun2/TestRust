@@ -1,5 +1,5 @@
 [package]
-name = "TestRust"
+name = "test_rust"
 version = "0.1.0"
 authors = ["박기현 <t2006036@partner.coway.co.kr>"]
 edition = "2018"
