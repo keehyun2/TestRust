@@ -47,5 +47,17 @@ pub fn chater3() {
     let six_point_four = x.1;
 
     let one = x.2;
+    another_function(5, 6);
+
+    ;
+    println!("ddd : {}", five(5));
 }
 
+fn another_function(x: i32, y: i32) {
+    println!("The value of x is: {}", x);
+    println!("The value of y is: {}", y)
+}
+
+fn five(x: i32) -> i32 {
+    x * 5
+}
